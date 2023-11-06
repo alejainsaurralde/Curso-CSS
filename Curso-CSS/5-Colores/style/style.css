@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+}
+
+/* HEXAGESIMAL #FFF */
+h1 {
+    background-color: #22496381;
+}
+
+/*RGBA*/
+
+h1 {
+    background-color: rgba(red, green, blue, alpha);
+}
+
+/*HSL*/
+h1 {
+    background-color: hsl(295, 100%, 50%);
+}

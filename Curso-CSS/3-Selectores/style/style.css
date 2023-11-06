@@ -1,0 +1,88 @@
+/* SELECTOR DE ELEMENTO */
+h1 {
+    color: aqua;
+    background-color: black
+}
+
+h2 {
+    color: aliceblue;
+    background-color: black;
+}
+
+
+/*SE PUEDE SELECCIONAR MAS DE UN H */
+h1,
+h2 {
+    color: chartreuse;
+    background-color: black;
+}
+
+MODIFICA TODO EL CUERPO body {
+    color: crimson;
+    background-color: black;
+}
+
+*/ TODAS LAS ETIQUETAS QUE HAGAMOS VA A TENER ESTE ATRIBUTO * {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+/* SELECTOR DE ID */
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#parrafo {
+    text-align: end;
+}
+
+/* SELECTOR DE CLASE */
+.seccion1 {
+    color: deeppink;
+    background-color: black;
+
+}
+
+.seccion2 {
+    color: cyan;
+    background-color: black;
+}
+
+/* SELECTOR DE ELEMENTO */
+h1 {
+    color: aliceblue;
+    background-color: black;
+}
+
+/* COMBINANDO SELECTORES */
+h2 {
+    background-color: darkblue;
+}
+
+
+/*SELECTORES DE ELEMENTO CON UNA CLASE*/
+h2.seccion3 {
+    color: yellow;
+}
+
+p.seccion1 {
+    background-color: green;
+}
+
+/*SELECTOR PARA ID*/
+p#parrafoSeleccionado {
+    color: palevioletred;
+
+}
+
+/*SELECTOR DE CLASE*/
+.estilo-fuente-distinto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*SELECTOR DE CLASE COMBINADA*/
+.seccion1.estilo-fuente-distinto {
+    text-align: end;
+}

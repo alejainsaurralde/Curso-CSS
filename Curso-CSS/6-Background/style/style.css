@@ -1,0 +1,23 @@
+
+/* body{
+    background: linear-gradient(90deg, #fff 0%, pink 20%, pink 60%, pink 100%);
+} */
+
+
+
+/* body{
+    background-image: url(/6-Background/assets/img/playa.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+} */
+
+/* Short Hand */
+body{
+    background: #000 url(/6-Background/assets/img/playa.jpg) no-repeat bottom;
+}
+
+p{
+    color: pink;
+}
