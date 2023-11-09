@@ -1,0 +1,51 @@
+
+/* COLORES Y CENTRADO AL TITULO Y TEXTO */
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: violet;
+    text-align: center;
+}
+
+p {
+    color: mediumvioletred;
+    text-align: justify;
+}
+
+b,i {
+    color: black;
+}
+
+/* DECORACION DE TEXTO */
+.overline {
+    text-decoration: overline;
+    text-decoration-color: palevioletred;
+    text-decoration-style: solid;
+
+}
+
+.line-through {
+    text-decoration: line-through;
+    text-decoration-color: mediumvioletred;
+    text-decoration-style: double;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+}
+
+/* DECORACION DE TEXTO CON SHORTHAND  */
+.underline {
+    text-decoration: underline palevioletred wavy 1px;
+}
+
+/* TRANFORMACION DE TEXTO  */
+.transformado {
+    text-transform: capitalize;
+}

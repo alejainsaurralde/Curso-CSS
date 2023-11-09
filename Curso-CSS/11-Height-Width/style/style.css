@@ -1,8 +1,12 @@
-.cajita1 {
+/* CAJITAS DE COLORES .cajita1 {
     border: 2px solid black;
     background-color: palevioletred;
     color: aliceblue;
-    height: 100px;
+
+    EN EL CASO DE ELEGIR MIN EL TEXTO SE VA A ADAPTAR A LA CAJITA,
+    SI ELIJO EL MAX Y EL TEXTO LO SUPERA SE VA A REBALSAR
+
+    min-height: 100px;
     width: 100px;
 
 }
@@ -23,4 +27,24 @@
     height: 100px;
     width: 100px;
 
+} */
+
+
+/* EL MIN-HEIGHT SIRVE PARA OCUPAR UN MINIMO DE ANCHO
+NO VA A FUNCIONAR EN EL ANCHO POR QUE ES CONTENIDO DE BLOQUE */
+.cajitaRosa{
+    border: 2px solid black;
+    background-color: palevioletred;
+    color: aliceblue;
+    height: 500px;
+    width: 500px;
+
+}
+
+.cajitaVerde{
+    border: 2px solid black;
+    background-color: green;
+    color: aliceblue;
+    min-height: 100px;
+    width: 100px;
 }
