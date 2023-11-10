@@ -1,0 +1,19 @@
+/* ESTILO */
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* TAMAÑO DE LA LETRA */
+p {
+    font-size: 5vw;
+    /* RECOMENDADO:
+        1em (TAMAÑO ESTANDAR) E IR VARIANDO DEPENDIENDO EL TAMAÑO QUE NECESITE. 
+        PIXELES(36px) PERO QUEDA FIJO */
+}
+
+/* LINK */
+h1,h2,p{
+    font-family: 'Inspiration', cursive;
+}
