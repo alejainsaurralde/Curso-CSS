@@ -1,0 +1,48 @@
+/* table,
+td,
+th,
+tr {
+    border: 1px solid black;
+} */
+
+/* COLAPSAR BORDES */
+table {
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    /* background-color: rgb(206, 197, 197); */
+}
+
+table,
+th {
+    border: 2px solid black;
+}
+
+.primeraColumna {
+    width: 200px;
+    border: 2px solid black;
+}
+
+th{
+    height: 50px;
+    background-color: grey;
+}
+
+/* PSEUDOSELECTOR */
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+tr:nth-child(odd){
+    background-color: plum;
+}
+
+/* PSEUDOELEMENTO QUE SE ACTIVA AL PASAR EL MOUSE */
+tr:hover{
+    background-color: blueviolet;
+}

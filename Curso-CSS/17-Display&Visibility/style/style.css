@@ -1,0 +1,49 @@
+.cajita1 {
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* SE COMPORTA COMO UN SPAN */
+    display: inline;
+}
+
+.cajita2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.cajita3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 1px solid black;
+    /* NO ESTÁ EL ELEMENTO */
+    display: none;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* ELEMENTO OCULTO */
+    visibility: hidden;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    /* SE COMPORTA COMO UN DIV */
+    display: block;
+}

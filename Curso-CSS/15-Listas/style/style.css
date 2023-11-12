@@ -1,0 +1,21 @@
+/* TIPOS */
+ul {
+    list-style-type: armenian;
+}
+
+/* IMAGEN */
+ul {
+    list-style-image: url(/15-Listas/assets/img/dinosaur-egg.png);
+}
+
+ul {
+    background-color: black;
+    padding: 50px;
+}
+
+li {
+    color: pink;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
