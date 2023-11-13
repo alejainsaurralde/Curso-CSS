@@ -1,0 +1,60 @@
+/* STATIC */
+.container {
+    position: static;
+    border: 2px solid green;
+}
+
+/* RELATIVE: POSICIÓN RELATIVA, PODEMOS IR DER, IZQ, ARRIBA, ABAJO */
+.container {
+    position: relative;
+    border: 2px solid green;
+    left: 15px;
+}
+
+.parrafo {
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+
+/* FIXED: PEGA EL ELEMENTO EN CUALQUIER LADO DE LA PANTALLA Y SI HACEMOS SCROLL QUEDA "FIXEADO", MANTIENE LA POSICION!*/
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid green;
+}
+
+/* ABSOLUT: EL ELEMENTO QUEDA PEGADO SI HACEMOS SCROLL, NO MANTIENE LA POSICION*/
+.container {
+    position: absolute;
+    border: 2px solid green;
+}
+
+
+/* STICKY: CUANDO SE SCROLLEA MANTIENE LA POSICION DADA */
+.container {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    border: 2px solid green;
+}
+
+/* IMAGEN */
+.container {
+    position: relative;
+    width: 75%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+}
