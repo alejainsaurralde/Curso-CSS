@@ -1,0 +1,63 @@
+/* COMO SE ESCRIBE...
+
+elemento:pseudoelemento{
+    propiedad:valor
+} */
+
+a:link {
+    color: blueviolet;
+    background-color: palevioletred;
+
+    /* NINGUN DECORADO */
+    text-decoration: none;
+
+}
+
+a:visited {
+    background-color: aqua;
+
+    /* SI NO QUIERO QUE SE NOTE QUE FUE O NO VISITADO */
+    background-color: black;
+}
+
+/* CUANDO PASEMOS POR ARRIBA CAMBIA EL COLOR */
+a:hover {
+    color: green;
+    background-color: aqua;
+}
+
+/* PARA LOS MENUES */
+a:active {
+    background-color: blue;
+}
+
+/* SE PASA POR ENCIMA DE ALGO Y SE ACTIVA OTRA COSA */
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
+
+/* FIRST CHILD */
+p:first-child {
+    background-color: aqua;
+}
+
+/* LAST CHILD */
+/* p:last-child {
+    background-color: pink;
+} */
+
+/* MARCAR LOS PARES E IMPARES (ODD) */
+p:nth-child(even) {
+    background-color: red;
+}
+
+/* FOCUS */
+input:focus {
+    background-color: palevioletred;
+}

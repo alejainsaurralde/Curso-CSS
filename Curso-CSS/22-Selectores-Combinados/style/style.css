@@ -1,0 +1,28 @@
+/* COMBINADOR DESCENDIENTE */
+/* LOS P QUE SON HIJOS DEL DIV (ESPACIO) */
+div p {
+    background-color: pink;
+}
+
+div {
+    background-color: aqua;
+}
+
+
+/* SELECTOR DE HIJO > */
+div>p {
+    background-color: yellowgreen;
+}
+
+
+/* SELECTOR DE HERMANO ADYACENTE */
+
+/* PRIMER HERMANO ADYACENTE + */
+div+p {
+    background-color: aqua;
+}
+
+/* GENERAL DE HERMANOS ~ */
+div~p {
+    background-color: palevioletred;
+}

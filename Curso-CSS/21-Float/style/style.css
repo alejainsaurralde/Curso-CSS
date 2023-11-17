@@ -1,0 +1,7 @@
+
+/* FLOAT SE UTILIZA PARA QUE LA IMG ESTE A UN LADO DEL TEXTO */
+
+img {
+    float: left;
+    padding-right: 10px;
+}

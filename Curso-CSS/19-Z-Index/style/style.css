@@ -1,0 +1,12 @@
+h1{
+    position: absolute;
+    top: 50px;
+    font-size: 100px;
+} 
+
+.adelante{
+    /*RELATIVE DEJA POSICIONAR DE VARIAS MANERAS*/
+    position: relative;
+    z-index: 1;
+    left: 200px;
+}

@@ -1,0 +1,11 @@
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+
+    /* EL TEXTO SOBRANTE SE OCULTA
+    overflow: hidden; */
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
