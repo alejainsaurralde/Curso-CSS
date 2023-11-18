@@ -1,0 +1,31 @@
+/* COMO SE ESCRIBE... 
+selector::pseudoelemento {
+    propiedad: valor
+} */
+
+/* BEFORE Y AFTER */
+h1::after {
+    content: url(/24-PseudoElementos/assets/img/kawaii.png);
+}
+
+/* PRIMERA LINEA */
+p::first-line {
+    color: blueviolet;
+}
+
+/* PRIMERA LETRA */
+p.primerParrafo::first-letter {
+    font-size: 3em;
+    color: darkblue;
+}
+
+/* MARCADORES */
+::marker {
+    color: fuchsia;
+    font-size: 3em;
+}
+
+::selection {
+    background-color: black;
+    color: yellowgreen;
+}
