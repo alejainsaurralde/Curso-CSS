@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: white;
+}
+
+
+img {
+    position: absolute;
+    top: 0;
+    /* opacity: 0.5; */
+}
+
+/* PASO POR ENCIMA Y DE LA IMG Y APARECE EL TEXTO */
+img:hover {
+    opacity: 0.5;
+}

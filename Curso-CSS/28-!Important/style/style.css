@@ -1,0 +1,19 @@
+h1 {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+h2 {
+    background-color: blue;
+    color: beige;
+}
+
+p {
+    background-color: red;
+    color: cadetblue;
+}
+
+a {
+    background-color: green !important;
+    color: crimson;
+}
